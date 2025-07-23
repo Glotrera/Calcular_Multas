@@ -1,0 +1,8 @@
+print('======== CALCULAR MULTAS =====')
+print('Onde cirulava o veículo?')
+print('Escolha uma opção:')
+print('1 - Localidade')
+print('2 - Fora da localidade')
+print('3 - Autoestrada')
+print()
+loc = int(input('Introduza o local'))
