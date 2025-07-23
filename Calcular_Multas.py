@@ -6,3 +6,8 @@ print('2 - Fora da localidade')
 print('3 - Autoestrada')
 print()
 loc = int(input('Introduza o local'))
+print('Qual a velocidade do veículo?')
+vel = int(input('Introduza a velocidade: '))
+
+
+
