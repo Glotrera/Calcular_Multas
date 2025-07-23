@@ -22,7 +22,7 @@ elif loc == 1:
 elif loc == 2:
     if vel > 90 and vel < 120:
         print('A multa a pagar é de 60 euros.')
-    elif vel >= 120.
+    elif vel >= 120:
         print('A multa a pagar é de 120 euros.')
         
 elif loc == 3:
