@@ -9,5 +9,8 @@ loc = int(input('Introduza o local'))
 print('Qual a velocidade do veículo?')
 vel = int(input('Introduza a velocidade: '))
 
+if vel <= 50:
+    print('Não há multa a pagar.')
+    
 
 
