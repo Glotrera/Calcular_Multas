@@ -4,7 +4,6 @@ print('Escolha uma opção:')
 print('1 - Localidade')
 print('2 - Fora da localidade')
 print('3 - Autoestrada')
-print()
 loc = int(input('Introduza o local'))
 print('Qual a velocidade do veículo?')
 vel = int(input('Introduza a velocidade: '))
@@ -26,5 +25,11 @@ elif loc == 2:
     elif vel >= 120.
         print('A multa a pagar é de 120 euros.')
         
-
+elif loc == 3:
+    if vel > 120 and vel <= 150:
+        print('A multa a pagar é de 60 euros.')
+    elif vel > 150 and vel <= 175:
+        print('A multa a pagar é de 120 euros.')
+    elif vel > 175:
+        print('A multa a pagar é de 360 euros.')
 
